@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" placeholder="Enter name">
+    <input type="text" placeholder="Enter gender">
+    <button onclick="signupfn()">signup</button>
+</body>
+</html>
+<script>
+    function signupfn(){
+        fetch(`http://localhost:8181/signup`),{
+          method:"POST",
+          headers:{
+            "content-type":"application/json"
+          },
+          body:JSON.stringify({name:"nishu",hender:"female"})
+        }
+        
+    }
+</script>

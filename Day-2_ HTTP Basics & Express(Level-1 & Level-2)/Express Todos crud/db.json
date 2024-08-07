@@ -1,0 +1,39 @@
+{
+    "todos": [
+        {
+            "id": 1,
+            "task": "Buy groceries",
+            "status": false
+        },
+        {
+            "id": 7,
+            "task": "complete the projects",
+            "status": false
+        },
+        {
+            "id": 9,
+            "task": "complete the projects",
+            "status": false
+        },
+        {
+            "id": 11,
+            "task": "complete the projects",
+            "status": false
+        },
+        {
+            "id": 13,
+            "task": "complete the projects",
+            "status": false
+        },
+        {
+            "id": 15,
+            "task": "complete the home2356",
+            "status": false
+        },
+        {
+            "id": 17,
+            "task": "today ass is completed",
+            "status": false
+        }
+    ]
+}
